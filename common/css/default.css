@@ -66,11 +66,16 @@ border: 0;
     margin-top: 0;
 }
 
-.reviews .review-content .profile{
-    border: 2px solid #E12A3B
-        
-}
 
+.rounded-image-50{
+        width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+        border: 2px solid #E12A3B
+}
 
 
 
@@ -354,40 +359,30 @@ font-size: 16px;
 
 
 
-.reviews .review-content{
+.review-content{
     max-width: 80%;
     margin: 0 auto;
     
 }
 
 
-.reviews .review-content .profile{
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    border-radius: 50%;
-/*    border: 2px solid red;*/
-    margin: 0 auto;
-    margin-bottom: 15px;
-}
-
-.reviews .review-content .link{
-/*    color: #717275;*/
-}
 
 
 
 
-.home-product{
+
+
+
+.box-menu{
     text-align: center;
 }
 
-.home-product a{
+.box-menu a{
     display: block;
     
 }
 
-.home-product a.link{
+.box-menu a.link{
     margin-top: 25px;
 }
 .instagramfeeds{
