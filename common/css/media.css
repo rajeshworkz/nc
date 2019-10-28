@@ -1,0 +1,60 @@
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 992px) { 
+.body {
+    margin-top: 93px;
+}
+   
+    
+.nutricook-nav .navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-bottom: 3px solid transparent;
+}
+    
+    
+.navbar-brand img{
+    width: 205px;
+}
+    
+    
+.sliderInfo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    top: 35%;
+    transform: translateY(-35%);
+}
+    
+    
+    
+.sliderItem .left{
+ float: left;
+}
+.sliderItem .right{
+  float: right;
+}
+
+.sliderItem .center{
+    margin: 0 auto;
+}
+
+.sliderItem .content h3 {
+    font-size: 69px;
+    }    
+.sliderItem .content p {
+    font-size: 21px;
+        margin-bottom: 45px;
+    }
+    
+    
+.reviews .content {
+    max-width: 45%;
+    }    
+    
+
+}

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nutricook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/geedmo/yamm@4.0.0/dist/yamm.min.css"/>
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="common/css/fonts.css" />
+  <link rel="stylesheet" href="common/css/default.css" />
+  
+    
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="common/js/default.js"></script>
+    
+ 
+    
+
+</head>
+<body>
+
+<div>
+
+    
+    
+<section class="header">
+    <div class="container">
+    <div class="row">
+<div class="col-md-12">
+<nav class="yamm navbar navbar-expand-lg nutricook-nav">
+  <a class="navbar-brand" href="#">   <img src="common/images/logo.svg" alt="nutricook"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+                
+    
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+  <li class="nav-item dropdown yamm-fw">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">shop<span class="caret"></span></a>
+            <div class="dropdown-menu">
+         
+<div class="yamm-content">
+          
+         <div class="row">
+                      <div class="col-sm-3">
+                             <div class="nav-item"><a class="nav-link" href="#" class="nav-link" >Smart Pots</a></div>
+                     <div class="nav-item"><a class="nav-link" href="#" class="nav-link" ><img src="common/images/1-smart-pots@2x.jpg"></a></div>   
+                      </div>
+             
+              <div class="col-sm-3">
+                       <div class="nav-item"><a class="nav-link" href="#" class="nav-link" >Air Fryer</a></div>
+                         <div class="nav-item"><a class="nav-link" href="#" class="nav-link" ><img src="common/images/2-airfryer@2x.jpg"></a></div>   
+                      </div>
+             
+             
+              <div class="col-sm-3">
+                          <div class="nav-item"><a class="nav-link" href="#" class="nav-link" >Air Fryer + Oven</a></div>
+                          <div class="nav-item"><a class="nav-link"href="#" class="nav-link" ><img src="common/images/3-airfryer_oven@2x.jpg"></a></div>   
+                      </div>
+             
+             
+             
+              <div class="col-sm-3">
+                         <div class="nav-item"><a class="nav-link" href="#">Accessories</a></div>
+                        <div class="nav-item"><a class="nav-link"href="#"><img src="common/images/4-accessories@2x.jpg"></a></div>   
+                      </div>
+                     
+                    </div>
+               
+               
+                </div>
+            </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">recipes</a></li>
+        <li class="nav-item"><a  class="nav-link"href="#">support</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">wherer to buy</a></li>
+    </ul>
+     <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#"><img class="icon" src="common/images/icons/search.svg"/></a></li>
+           <li class="nav-item"><a class="nav-link"href="#"><img  class="icon"src="common/images/icons/globe.svg"/></a></li>
+            <li class="nav-item"><a class="nav-link"href="#">En</a></li>
+         <li class="nav-item"><a class="nav-link" href="#">|</a></li>
+           <li class="nav-item"><a class="nav-link" href="#"><img  class="icon"src="common/images/icons/account.svg"/></a></li>
+        <li class="nav-item"><a class="nav-link"href="#"><img  class="icon"src="common/images/icons/cart.svg"/></a></li>
+      </ul>
+ 
+    
+    
+    </div>
+</nav>
+ </div>       
+        
+<!--
+       
+
+        <nav class="yamm navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="common/images/logo.svg" alt="nutricook"/>
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav">
+      
+        <li class="dropdown yamm-fw">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">shop<span class="caret"></span></a>
+            <div class="dropdown-menu">
+         
+<div class="yamm-content">
+          
+         <div class="row">
+                      <div class="col-sm-3">
+                          <div><a href="#">Smart Pots</a></div>
+                          <div><a href="#"><img src="common/images/1-smart-pots@2x.jpg"></a></div>   
+                      </div>
+             
+              <div class="col-sm-3">
+                          <div><a href="#">Air Fryer</a></div>
+                          <div><a href="#"><img src="common/images/2-airfryer@2x.jpg"></a></div>   
+                      </div>
+             
+             
+              <div class="col-sm-3">
+                          <div><a href="#">Air Fryer + Oven</a></div>
+                          <div><a href="#"><img src="common/images/3-airfryer_oven@2x.jpg"></a></div>   
+                      </div>
+             
+             
+             
+              <div class="col-sm-3">
+                          <div><a href="#">Accessories</a></div>
+                          <div><a href="#"><img src="common/images/4-accessories@2x.jpg"></a></div>   
+                      </div>
+                     
+                    </div>
+               
+               
+                </div>
+            </div>
+        </li>
+        <li><a href="#">recipes</a></li>
+        <li><a href="#">support</a></li>
+        <li><a href="#">wherer to buy</a></li>
+      </ul>
+
+        
+     
+        
+        
+        
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><img class="icon" src="common/images/icons/search.svg"/></a></li>
+          <li><a href="#"><img  class="icon"src="common/images/icons/globe.svg"/></a></li>
+          <li><a href="#">En</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#"><img  class="icon"src="common/images/icons/account.svg"/></a></li>
+          <li><a href="#"><img  class="icon"src="common/images/icons/cart.svg"/></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
+        
+    </div> 
+    </div>
+</section>
+<section class="body">
+    
+
+    
+<section class="hero-slider">
+<div class="owl-carousel  image owl-theme">
+  <div class="sliderItem">
+    <div class="sliderBg">
+      <img src="common/images/temp1.png" > 
+      </div>
+      <div class="sliderInfo">
+          <div class="container">
+                <div class="right content">
+              <h3>Life is complicated.</h3>
+              <p>Eating healthy doesn’t have to be.<br>
+                  From the creators of nutrient extraction comes Next level cooking.</p>
+              <a href="#" class="btn btn-nutri-1">Buy Now</a>
+                </div>
+            
+         
+              </div>
+      
+      </div>
+      
+</div>  
+    
+    
+      <div class="sliderItem">
+    <div class="sliderBg">
+      <img src="common/images/temp1.png" > 
+      </div>
+      <div class="sliderInfo">
+          <div class="container">
+                <div class="center content">
+              <h3>Life is complicated.</h3>
+              <p>Eating healthy doesn’t have to be.<br>
+                  From the creators of nutrient extraction comes Next level cooking.</p>
+              <a href="#" class="btn btn-nutri-1">Buy Now</a>
+                </div>
+            
+         
+              </div>
+      
+      </div>
+      
+</div> 
+    
+    
+    
+      <div class="sliderItem">
+    <div class="sliderBg">
+      <img src="common/images/temp1.png" > 
+      </div>
+      <div class="sliderInfo">
+          <div class="container">
+                <div class="left content">
+              <h3>Life is complicated.</h3>
+              <p>Eating healthy doesn’t have to be.<br>
+                  From the creators of nutrient extraction comes Next level cooking.</p>
+              <a href="#" class="btn btn-nutri-1">Buy Now</a>
+                </div>
+            
+         
+              </div>
+      
+      </div>
+      
+</div> 
+
+
+</div>
+</section>  
+    
+    
+<section class="home-value">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="common/images/icons/1-days.svg">
+            <h4>30 Days Risk Free Trial</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt urna in consectetur vehicula.</p>
+        </div>
+        
+         <div class="col-md-3">
+            <img src="common/images/icons/1-days.svg">
+            <h4>30 Days Risk Free Trial</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt urna in consectetur vehicula.</p>
+        </div>
+        
+         <div class="col-md-3">
+            <img src="common/images/icons/1-days.svg">
+            <h4>30 Days Risk Free Trial</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt urna in consectetur vehicula.</p>
+        </div>
+        
+         <div class="col-md-3">
+            <img src="common/images/icons/1-days.svg">
+            <h4>30 Days Risk Free Trial</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt urna in consectetur vehicula.</p>
+        </div>
+    
+    </div>
+</div>    
+</section>    
+    
+    
+    
+<section class="video-slider">
+    
+    <div class="container">
+    
+       <div class="owl-carousel video owl-theme">  
+           
+<div class="row equal">
+<div class="col-md-8  pr-0">
+<div class="item-video" data-merge="1">
+<a class="owl-video" href="https://vimeo.com/190229684"></a>
+</div>
+</div>
+
+<div class="col-md-4 pl-0 video-content">
+<div class="content">
+<h3>Sleek design.</h3> 
+<p>Premium stainless<br>steel ﬁnish.</p>    
+</div>
+</div>
+</div>
+           
+<div class="row equal">
+<div class="col-md-8  pr-0">
+<div class="item-video" data-merge="1">
+<a class="owl-video" href="https://vimeo.com/190229684"></a>
+</div>
+</div>
+
+<div class="col-md-4 pl-0 video-content">
+<div class="content">
+<h3>Sleek design.2</h3> 
+<p>Premium stainless<br>steel ﬁnish.2</p>    
+</div>
+</div>
+</div>
+           
+           
+
+           
+
+</div>
+    
+    
+    </div>
+    
+    
+ 
+    
+</section>    
+    
+    
+<section class="reviews">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="content">
+            <h3>Reviews.</h3>
+            
+            <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris eget dignissim nisl. Aenean vitae consequat ante. 
+            </p>
+                
+                </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        <div class="col-md-12">
+     
+<div class="row">
+<div class="col-md-2"></div>            
+<div class="col-md-8">
+    <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item active">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+        <img src="common/images/gulfnews@2x.png">
+      
+      </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+      <img src="common/images/womenshealth@2x.png">
+      </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+       <img src="common/images/national@2x.png">
+      </a>
+  </li>
+</ul>
+    
+</div>            
+<div class="col-md-2"></div>            
+            
+</div>
+        
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane  fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    
+    <div class="row">
+      <div class="col-md-4">
+          <div class="profile">
+          <img src="https://dummyimage.com/100x100/000/fff">
+          </div>
+          <div class="rating"><img src="common/images/icons/rating.svg"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt urna in consectetur vehicula.</p>
+          <a href="#" class="link">@cookingspecialist</a>
+        </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+      
+      
+      </div>
+    
+    
+    
+    </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+</div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    
+
+</div>
+    
+    </section>    
+    
+    
+    <section class="container py-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Tabs</h2>
+                <ul id="tabsJustified" class="nav nav-tabs">
+                    <li class="nav-item"><a href="" data-target="#home1" data-toggle="tab" class="nav-link small text-uppercase">Home</a></li>
+                    <li class="nav-item"><a href="" data-target="#profile1" data-toggle="tab" class="nav-link small text-uppercase active">Profile</a></li>
+                    <li class="nav-item"><a href="" data-target="#messages1" data-toggle="tab" class="nav-link small text-uppercase">Messages</a></li>
+                </ul>
+                <br>
+                <div id="tabsJustifiedContent" class="tab-content">
+                    <div id="home1" class="tab-pane fade">
+                        <div class="list-group"><a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">51</span> Home Link</a> <a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">8</span> Link 2</a>                            <a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">23</span> Link 3</a> <a href="" class="list-group-item d-inline-block text-muted">Link n..</a></div>
+                    </div>
+                    <div id="profile1" class="tab-pane fade active show">
+                        <div class="row pb-2">
+                            <div class="col-md-7">
+                                <p>Tabs can be used to contain a variety of content &amp; elements. They are a good way to group <a href="" class="link">relevant content</a>. Display initial content in context to the user. Enable the user to flow through
+                                    <a href="" class="link">more</a> information as needed.
+                                </p>
+                            </div>
+                            <div class="col-md-5"><img src="//dummyimage.com/1005x559.png/5fa2dd/ffffff" class="float-right img-fluid img-rounded"></div>
+                        </div>
+                    </div>
+                    <div id="messages1" class="tab-pane fade">
+                        <div class="list-group"><a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">44</span> Message 1</a> <a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">8</span> Message 2</a>                            <a href="" class="list-group-item d-inline-block"><span class="float-right badge badge-pill badge-dark">23</span> Message 3</a> <a href="" class="list-group-item d-inline-block text-muted">Message n..</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <section>
+    
+    
+    <div class="container">
+        
+        <div class="row">
+        
+            <div class="col-md-12">
+            <h3>Create, nourish, thrive.</h3>
+            
+            </div>
+            
+            
+            <div class="col-md-4">
+            
+            <a href="#">
+                
+                <img src="common/images/1-smart-pots.jpg">
+                <span>Shop now</span>
+                </a>
+            </div>
+            
+            
+                
+            <div class="col-md-4">
+            
+            <a href="#">
+                
+                <img src="common/images/1-smart-pots.jpg">
+                <span>Shop now</span>
+                </a>
+            </div>
+            
+            
+                
+            <div class="col-md-4">
+            
+            <a href="#">
+                
+                <img src="common/images/1-smart-pots.jpg">
+                <span>Shop now</span>
+                </a>
+            </div>
+            
+        
+        
+        </div>
+        
+        
+        
+        </div>
+    
+    </section>
+    
+    
+    
+    
+    <section>
+    
+    
+    <div class="container">
+        
+        <div class="row">
+        
+            <div class="col-md-12">
+            <h3>Share your recipes with us @nutricookworld</h3>
+            
+            </div>
+            
+            
+            <div class="col-md-3">
+            
+            <a href="#">
+               <img src="common/images/1-smart-pots.jpg">     
+                </a>
+            </div>
+            
+            
+                
+            <div class="col-md-3">
+            <a href="#">
+                <img src="common/images/1-smart-pots.jpg">
+                </a>
+            </div>
+            
+            
+                
+            <div class="col-md-3">           
+            <a href="#">             
+                <img src="common/images/1-smart-pots.jpg">
+                </a>
+            </div>
+            
+              <div class="col-md-3">           
+            <a href="#">             
+                <img src="common/images/1-smart-pots.jpg">
+                </a>
+            </div>
+            
+        
+        
+        </div>
+        
+        
+        
+        </div>
+    
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ </section>       
+<section class="footer">
+    <div class="container">
+    <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="common/images/logo-bottom.svg">
+                    <p>
+                    We’re here to equip users with the knowledge and support they need to make good, consistent choices regarding their personal health and wellness. Start Nutricook by NutriBullet today!
+                    </p>
+                    </div>
+                <div class="col-md-2">sdf</div>
+                <div class="col-md-2">sdf</div>
+                <div class="col-md-2">sdf</div>
+                
+                </div>
+        
+            </div>
+        
+        
+           <div class="col-md-7">
+        
+            </div>
+        
+        
+    </div>    
+  </div>  
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+        
+</section>    
+</div>    
+
+</body>
+</html>
+
