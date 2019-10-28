@@ -42,7 +42,7 @@
 </section>  
     
     
-<section class="home-value">
+<section class="value">
 <div class="container">
     <div class="row">
         <div class="col-md-3">

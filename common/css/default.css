@@ -217,21 +217,21 @@ font-size: 16px;
 }
 
 
-.home-value{
+.value{
     text-align: center;
     margin: 15px 0;
 }
 
-.home-value h4 {
+.value h4 {
     font-weight: 300;
     font-size: 18px;
     margin-top: 15px;
 }
-.home-value img{
+.value img{
     width: 30px;
     
 }
-.home-value p {
+.value p {
     margin-bottom: 45px;
 }
 
