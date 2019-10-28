@@ -1,47 +1,29 @@
-<section class="video-slider">
+      <section class="hero-slider">
+                <div class="owl-carousel  image owl-theme">
+                    <div class="sliderItem">
+                        <div class="sliderBg">
 
-    <div class="container">
+                            <div class="d-none d-lg-block"> <img class="desktop" src="common/images/temp1.png"> </div>
+                            <div class="d-none d-sm-block d-lg-none"><img class="tablet" src="common/images/tab.png"> </div>
+                            <div class="d-block d-sm-none"><img class="mobile" src="common/images/mob.png"> </div>
 
-        <div class="owl-carousel video owl-theme">
-
-            <div class="item">
-                <div class="row equal">
-                    <div class="col-md-8  pr-0">
-                        <div class="item-video" data-merge="1">
-                            <a class="owl-video" href="https://vimeo.com/190229684"></a>
                         </div>
+                        <div class="sliderInfo">
+                            <div class="container">
+<!--                                left right -->
+                                <div class="content">
+                                    <h3 class="main-color">Life is complicated.</h3>
+                                    <p>Eating healthy doesn’t have to be.
+                                        <br> From the creators of nutrient extraction comes Next level cooking.</p>
+                                    <a href="#" class="btn btn-nutri-1">Buy Now</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-md-4 pl-0 video-content main-color-bg">
-                        <div class="content">
-                            <h3 class="">Sleek design.</h3>
-                            <p>Premium stainless
-                                <br>steel ﬁnish.</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="item">
-                <div class="row equal">
-                    <div class="col-md-8  pr-0">
-                        <div class="item-video" data-merge="2">
-                            <a class="owl-video" href="https://vimeo.com/190229684"></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 pl-0 video-content main-color-bg">
-                        <div class="content">
-                            <h3 class="">Sleek design.2</h3>
-                            <p>Premium stainless
-                                <br>steel ﬁnish.2</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
