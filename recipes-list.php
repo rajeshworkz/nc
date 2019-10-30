@@ -17,7 +17,7 @@
     </div>
 </section>
             
-<section>
+<section class="nutri-listing-page">
     <div class="container">
         
         <div class="row">
