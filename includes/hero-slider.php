@@ -11,7 +11,7 @@
                         <div class="sliderInfo">
                             <div class="container">
 <!--                                left right -->
-                                <div class="content">
+                                <div class="right content">
                                     <h3 class="main-color">Life is complicated.</h3>
                                     <p>Eating healthy doesn’t have to be.
                                         <br> From the creators of nutrient extraction comes Next level cooking.</p>

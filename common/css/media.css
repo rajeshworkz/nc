@@ -1,11 +1,25 @@
-@media (min-width: 992px) { 
+@media (min-width: 567px) { 
+   .product-box div:nth-child(2n+2) {
+/*  border-right: 1px solid #D0D0D0;*/
+    border-left: 1px solid #D0D0D0;
+}
 
 }
 @media (min-width: 992px) { 
 .body {
     margin-top: 93px;
 }
-   
+    
+    .product-box div:nth-child(2n+2) {
+        border-right: 0;
+        border-left: 0;
+    }
+    
+   .product-box div:nth-child(3n+2) {
+  border-right: 1px solid #D0D0D0;
+    border-left: 1px solid #D0D0D0;
+}
+
     
 .nutricook-nav .navbar-nav>li>a {
     padding-top: 30px;

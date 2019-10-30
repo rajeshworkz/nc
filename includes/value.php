@@ -1,6 +1,11 @@
 <section class="value">
 <div class="container">
     <div class="row">
+            <div class="col-md-12">
+                <h3 class="main-color">Fast. Easy. Versatile.</h3>
+
+            </div>
+        
         <div class="col-sm-6 col-md-3">
             
             <img src="common/images/icons/1-days.svg">
