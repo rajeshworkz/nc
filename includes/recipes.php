@@ -1,5 +1,6 @@
     <div class="col-md-4">
-    <div class="recipe-box">
+          <div class="nutri-product-box-wrapper">
+    <div class="nutri-product-box">
    
  <div class="hovereffect">
         <img class="img-fluid" src="common/images/r1@2x.png" alt="">
@@ -9,8 +10,10 @@
         </div>
     </div>
         
+     
+     </div>  
+                 
+        <a href="#" class="text-link"><p>Roasted vegetables with spicy sauce</p></a>   
         
-        <p>Roasted vegetables with spicy sauce</p>   
-        
-     </div>           
+        </div>
     </div>

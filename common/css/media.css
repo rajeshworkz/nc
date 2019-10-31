@@ -6,9 +6,15 @@
 
 }
 @media (min-width: 992px) { 
+       .modal-dialog {
+
+    margin: 17.75rem auto;
+    }
+    
 .body {
     margin-top: 93px;
 }
+ 
     
     .product-box div:nth-child(2n+2) {
         border-right: 0;

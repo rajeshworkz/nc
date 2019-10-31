@@ -22,6 +22,48 @@
 	font-weight: 300;
 	font-style: normal;
  }
+
+
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProMedium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaProMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaProMedium.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaProMedium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaProMedium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaProMedium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaProMedium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: "SofiaPro";
+	src: url("../fonts/SofiaProBlack.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/SofiaProBlack.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("../fonts/SofiaProBlack.otf") format("opentype"), /* Open Type Font */
+	  url("../fonts/SofiaProBlack.svg") format("svg"), /* Legacy iOS */
+	  url("../fonts/SofiaProBlack.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("../fonts/SofiaProBlack.woff") format("woff"), /* Modern Browsers */
+	  url("../fonts/SofiaProBlack.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProSemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaProSemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaProSemiBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaProSemiBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaProSemiBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaProSemiBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaProSemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 600;
+  font-style: normal;
+}
+
   @font-face {
 	  font-family: "SofiaPro";
 	  src: url("../fonts/SofiaProBold.eot"); /* IE9 Compat Modes */
@@ -33,16 +75,4 @@
 		url("../fonts/SofiaProBold.woff2") format("woff2"); /* Modern Browsers */
 	  font-weight: 700;
 	  font-style: normal;
-}
-@font-face {
-	font-family: "SofiaPro";
-	src: url("../fonts/SofiaProBlack.eot"); /* IE9 Compat Modes */
-	src: url("../fonts/SofiaProBlack.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-	  url("../fonts/SofiaProBlack.otf") format("opentype"), /* Open Type Font */
-	  url("../fonts/SofiaProBlack.svg") format("svg"), /* Legacy iOS */
-	  url("../fonts/SofiaProBlack.ttf") format("truetype"), /* Safari, Android, iOS */
-	  url("../fonts/SofiaProBlack.woff") format("woff"), /* Modern Browsers */
-	  url("../fonts/SofiaProBlack.woff2") format("woff2"); /* Modern Browsers */
-	font-weight: 400;
-	font-style: normal;
 }

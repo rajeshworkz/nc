@@ -76,7 +76,9 @@ border: 0;
       color: #E12A3B;  
 }
 
-
+.nutri-product-box-wrapper .text-link{
+    color: #727272;
+}
 
 .reviews  hr{
         border-top: 1px solid #E12A3B;
@@ -108,7 +110,7 @@ border: 0;
     color: #E12A3B;
 }
 
-
+.col-pixel-width-100 { flex: 0 0 30px; }
 
 body{
     font-family: 'SofiaPro';
@@ -564,8 +566,14 @@ padding: 0 15px;
 
 
 /******recipes****/
+.nutri-listing-page h4{
+    font-size: 18px;
+    
+}
 .recipe-search .form-control{
     border: 0;
+    font-weight: 600;
+    font-size: 26px;
     
 }
 
@@ -616,6 +624,7 @@ padding: 0 15px;
 .nutri-filter .card-header{
     background: none;
         padding: 15px 0;
+    cursor: pointer;
     
 }
 .nutri-filter .short{
@@ -628,13 +637,13 @@ padding: 0 15px;
 }
 
 
-.nutri-listing-page .page-link{
+.nutri-pagination .page-link{
    margin: 0px 3px;
     border-radius: 3px;
     color: #000; 
 }
 
-.nutri-listing-page .page-item.active .page-link {
+.nutri-pagination .page-item.active .page-link {
     color: #000;
     background: none;
     border-color: #000;
@@ -672,7 +681,7 @@ padding: 0 15px;
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    margin-right: 15px;
+/*    margin-right: 15px;*/
 }
 
 .recipe-products h3{
@@ -680,6 +689,59 @@ padding: 0 15px;
     font-weight: 300;
     font-size: 25px;
     
+}
+.nutri-product-box-wrapper{
+    margin-bottom: 35px;
+} 
+.nutri-product-box-wrapper p{
+    text-align: center;
+        padding:0 15px;
+    margin-bottom: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.nutri-product-box{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.nutri-product-box .play-icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+.nutri-product-box .nutri-hover::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+          transition:all .25s ease-in-out;
+}
+
+.nutri-product-box .thumbnail{
+   transition:all .25s ease-in-out;
+}
+.nutri-product-box .link:hover .thumbnail{
+    transform: scale(1.1);
+    
+}
+
+.nutri-product-box .link:hover .nutri-hover::after{
+    background-color: rgba(0,0,0,.2);
 }
 
 

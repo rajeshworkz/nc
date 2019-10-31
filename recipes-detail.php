@@ -93,15 +93,38 @@
 
                                          
                                             <ul class="recipe-cooking-directions">
-                                                <li><span>1</span>Put all of the ingredients into the Batchbowl and blend until smooth.</li>
-                                                <li><span>1</span>Pour the contents into a baking dish.</li>
-                                                <li><span>1</span>Bake at 350°F for about 35–45 minutes (or until the egg is firm and golden brown on top).></li>
-                                                <li><span>1</span>Serve immediately, chill in the refrigerator or freeze for up to 30 days.</li>
-                                                <li><span>1</span>Put all of the ingredients into the Batchbowl and blend until smooth.</li>
-                                                <li><span>1</span>Pour the contents into a baking dish.</li>
-                                                <li><span>1</span>Bake at 350°F for about 35–45 minutes (or until the egg is firm and golden brown on top).</li>
-                                                <li><span>1</span>Serve immediately, chill in the refrigerator or freeze for up to 30 days.</li>
                                             
+                                                
+                                                
+                                                  <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>     <li class="row">
+                                                      
+                                                      <div class="col-pixel-width-100"><span>1</span></div>
+                                                      <div class="col">Put all of the ingredients into the Batchbowl and blend until smooth.</div></li>
+                                                
+                                                
+                                                
+                                                
+
+                                            
+
                                             </ul>
                                             
                                             
