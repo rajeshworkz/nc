@@ -64,29 +64,39 @@ a.nav-color{
     background: #e8a0a6;
 }
 
-.nutri-tabs .nav-tabs .nav-link:focus,
-.nutri-tabs .nav-tabs .nav-link:hover {
+.search-tabs .nav-tabs .nav-link:focus,
+.search-tabs nav-tabs .nav-link:focus,
+.reviews .nav-tabs .nav-link:focus,
+.recipes-details .nav-tabs .nav-link:focus,
+.reviews .nav-tabs .nav-link:hover,
+.recipes-details .nav-tabs .nav-link:hover {
     border: 0;
     border-bottom: 3px solid #E12A3B;
 }
 
-
-.nutri-tabs .nav-tabs .nav-item.show .nav-link,
-.nutri-tabs .nav-tabs .nav-link.active {
+.search-tabs .nav-tabs .nav-item.show .nav-link,
+.search-tabs nav-tabs .nav-link.active,
+.reviews .nav-tabs .nav-item.show .nav-link,
+.recipes-details .nav-tabs .nav-link.active,
+.recipes-details .nav-tabs .nav-item.show .nav-link,
+.reviews .nav-tabs .nav-link.active {
 border: 0;
     border-bottom: 3px solid #E12A3B;
 }
 
-.nutri-tabs  .nav-tabs,{
+.search-tabs  .nav-tabs,
+.recipes-details .nav-tabs{
     border-bottom: 1px solid #E12A3B;
 } 
 
-.nutri-tabs  .nav-tabs .nav-link{
+.search-tabs  .nav-tabs .nav-link,
+.recipes-details .nav-tabs .nav-link{
     color: #727272;
 }
-
-.nutri-tabs.nav-tabs .nav-link.active,
-.nutri-tabs .nav-tabs .nav-link.active{
+.search-tabs  .nav-tabs .nav-item.show .nav-link,
+.recipes-details .nav-tabs .nav-item.show .nav-link,
+.search-tabs .nav-tabs .nav-link.active,
+.recipes-details .nav-tabs .nav-link.active{
       color: #E12A3B;  
 }
 
@@ -169,7 +179,7 @@ h3{
     color: #ccc;
     border: 1px solid #ccc;
     font-weight: 300; 
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 
 .btn-nutri-grey{
@@ -395,15 +405,6 @@ height: 189px;
     font-size: 16px;
 }
 
-.main-search h4{
-        color: #E12A3B;
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-.main-search .search-tabs{
-    margin: 25px 0;
-}
 .cart-header-count{
     width: 20px;
     height: 20px;
@@ -776,11 +777,6 @@ padding: 0 15px;
     
 }
 
-.recipe-cooking-ingredients{
-    padding: 15px 20px;
-}
-
-
 
 
 .nutri-filter .accordion .card-header:after {
@@ -856,7 +852,7 @@ padding: 0 15px;
        padding: 15px; 
 }
 .recipe-cooking-directions{
-    padding: 15px 30px;
+    padding: 15px;
 }
 .recipe-cooking-directions li{
    line-height: 27px;

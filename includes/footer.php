@@ -127,6 +127,9 @@
 
     </div>
 </section>
+
+<?php include'modal-promo.php' ?>
+
 </div>
 
 </body>

@@ -20,15 +20,14 @@
 <section>
 <div class="container">
 <div class="row equal product-box">
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
-<?php include './includes/product.php' ?>
+<?php include './includes/product-3.php' ?>
+<?php include './includes/product-3.php' ?>
+<?php include './includes/product-3.php' ?>
+<?php include './includes/product-3.php' ?>
+<?php include './includes/product-3.php' ?>
+<?php include './includes/product-3.php' ?>
+
+
 
     
      

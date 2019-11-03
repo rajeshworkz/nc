@@ -1,8 +1,7 @@
 <?php include './includes/header.php' ?>
     <?php include './includes/nav.php' ?>
 
-        <section class="body">
-<section>
+<section class="mt-0">
 <img class="img-fluid" src="common/images/innerimg.png">                        
 </section>
 <section>
@@ -76,6 +75,6 @@
             
 <?php include './includes/box-menu.php' ?>
 
-        </section>
+
 
 <?php include './includes/footer.php' ?>

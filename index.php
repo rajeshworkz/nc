@@ -1,7 +1,7 @@
 <?php include './includes/header.php' ?>
     <?php include './includes/nav.php' ?>
 
-        <section class="body">
+       
 
       
 
@@ -29,7 +29,7 @@
 
                                 <div class="col-md-12">
 
-                                    <div class="row">
+                                    <div class="row nutri-tabs">
                                         <!--<div class="col-md-2"></div>            -->
                                         <div class="col-sm-12 col-lg-8 m-auto">
 
@@ -89,6 +89,6 @@
 
                         <?php include './includes/instagramfeeds.php' ?>
 
-        </section>
+
 
         <?php include './includes/footer.php' ?>

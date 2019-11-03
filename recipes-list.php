@@ -1,8 +1,8 @@
 <?php include './includes/header.php' ?>
     <?php include './includes/nav.php' ?>
 
-        <section class="body">
-<section>
+
+<section class="m-0">
 <img class="img-fluid" src="common/images/innerimg.png">                        
 </section>
 <section>
@@ -54,7 +54,7 @@
                 </a>
             </div>
             <div id="collapseOne" class="card-body collapse show" data-parent="#accordion" >
-              <div class="">
+              <div class="filters-wrapper">
                 
                 <div class="form-check">
   <label class="form-check-label">
@@ -66,7 +66,7 @@
     <input type="radio" class="form-check-input" name="optradio">Option 2
   </label>
 </div>
-<div class="form-check disabled">
+<div class="form-check">
   <label class="form-check-label">
     <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
   </label>
@@ -83,7 +83,7 @@
                 </a>
             </div>
             <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
-                      <div class="">
+                       <div class="filters-wrapper">
                 
                 <div class="form-check">
   <label class="form-check-label">
@@ -112,7 +112,7 @@
                 </a>
             </div>
             <div id="collapseThree" class="collapse" data-parent="#accordion" >
-              <div>
+         <div class="filters-wrapper">
                 <div class="form-check">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" value="">Option 1
@@ -137,6 +137,7 @@
           
            <div class="short">
                 <h4>Sort by:</h4>
+                   <div class="filters-wrapper">
                 <div class="form-check">
   <label class="form-check-label">
     <input type="radio" class="form-check-input" name="optradio">Option 1
@@ -147,6 +148,7 @@
     <input type="radio" class="form-check-input" name="optradio">Option 2
   </label>
 </div>
+               </div>
 
                   
                   
@@ -163,14 +165,21 @@
 <div class="col-md-8">
     <div class="row">
     
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+
+        
+        <?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+
     
       
     </div>
@@ -195,6 +204,6 @@
             
 
 
-        </section>
+
 
 <?php include './includes/footer.php' ?>

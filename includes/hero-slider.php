@@ -1,4 +1,4 @@
-      <section class="hero-slider">
+      <section class="hero-slider m-0">
                 <div class="owl-carousel  image owl-theme">
                     <div class="sliderItem">
                         <div class="sliderBg">

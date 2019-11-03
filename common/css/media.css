@@ -3,12 +3,47 @@
 /*  border-right: 1px solid #D0D0D0;*/
     border-left: 1px solid #D0D0D0;
 }
+    
+    
+@media (min-width: 768px) { 
+           .header-promo-close{
+    top: 10px;
+    }
+    .header-promo {
+        height: 75px;
+    }
+    
+    .header-promo .t1 {
+    font-size: 14px;
+    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+    
+    .header-promo .t2 {
+    margin-top: 6px;
+}
+    .playground-header{
+           height: 168px;
+    }
+    
+ .playground-header-height{
+   height: 93px;
+}   
+    
+    }
 
 }
 @media (min-width: 992px) { 
        .modal-dialog {
-
+           max-width: 900px;
     margin: 17.75rem auto;
+    }
+    
+    .modal-promo .modal-close-icon{
+    right: -15px;
+        top: -15px;
     }
     
 .body {
@@ -26,7 +61,7 @@
     border-left: 1px solid #D0D0D0;
 }
 
-    
+ 
 .nutricook-nav .navbar-nav>li>a {
     padding-top: 30px;
     padding-bottom: 30px;

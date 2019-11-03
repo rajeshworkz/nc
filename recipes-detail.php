@@ -53,7 +53,7 @@
         
                <div class="col-md-12 m-auto">
 
-                                    <div class="row">
+                                    <div class="row nutri-tabs">
                                         <!--<div class="col-md-2"></div>            -->
                                         <div class="col-md-12 pl-5 pr-5">
 
@@ -155,9 +155,9 @@
     <div class="col-md-12">
         <h3 class="main-color">Can be made with</h3>
         </div>
-<?php include 'includes/product.php' ?>
-<?php include 'includes/product.php' ?>
-<?php include 'includes/product.php' ?>
+<?php include 'includes/product-3.php' ?>
+<?php include 'includes/product-3.php' ?>
+<?php include 'includes/product-3.php' ?>
 
 
     
@@ -178,9 +178,9 @@
     <div class="col-md-12">
         <h3 class="main-color">You may also like.</h3>
         </div>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
-<?php include 'includes/recipes.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
+<?php include 'includes/recipes-3.php' ?>
 
 
     
